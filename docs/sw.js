@@ -1,5 +1,10 @@
-const CACHE = 'dh-v2';
-const STATIC = ['/', '/index.html', '/manifest.json'];
+const CACHE = 'dh-v3';
+const STATIC = [
+  '/deutsch-horen/',
+  '/deutsch-horen/index.html',
+  '/deutsch-horen/manifest.json',
+  '/deutsch-horen/assets/index-CNtl3_kI.js'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(STATIC)));
