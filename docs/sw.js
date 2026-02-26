@@ -1,9 +1,9 @@
-const CACHE = 'dh-v7';
+const CACHE = 'dh-v8';
 const STATIC = [
   '/deutsch-horen/',
   '/deutsch-horen/index.html',
   '/deutsch-horen/manifest.json',
-  '/deutsch-horen/assets/index-681a355b.js'
+  '/deutsch-horen/assets/index-d6ddb02a.js'
 ];
 
 self.addEventListener('install', e => {
