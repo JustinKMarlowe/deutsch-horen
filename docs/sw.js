@@ -3,7 +3,7 @@ const STATIC = [
   '/deutsch-horen/',
   '/deutsch-horen/index.html',
   '/deutsch-horen/manifest.json',
-  '/deutsch-horen/assets/index-d6ddb02a.js'
+  '/deutsch-horen/assets/index-25c34eca.js'
 ];
 
 self.addEventListener('install', e => {
