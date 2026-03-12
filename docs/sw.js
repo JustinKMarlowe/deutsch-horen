@@ -1,4 +1,4 @@
-const CACHE = 'dh-v10';
+const CACHE = 'dh-v11';
 const STATIC = [
   '/deutsch-horen/',
   '/deutsch-horen/index.html',
